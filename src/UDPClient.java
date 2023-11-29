@@ -63,7 +63,6 @@ public class UDPClient {
             System.out.println("Server response: " + serverResponse);
 
             clientSocket.close();
-
         } catch (Exception e) {
             e.printStackTrace();
         }

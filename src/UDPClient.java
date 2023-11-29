@@ -64,9 +64,6 @@ public class UDPClient {
 
             clientSocket.close();
 
-
-
-
         } catch (Exception e) {
             e.printStackTrace();
         }

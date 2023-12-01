@@ -39,7 +39,6 @@ public class UDPServer {
                         serverSocket.send(sendPacket);
                     } catch (IOException e) {
                         e.printStackTrace();
-
                     }
                 });
 

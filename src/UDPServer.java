@@ -11,7 +11,8 @@ public class UDPServer {
 
     public static void main(String[] args) {
         try {
-            DatagramSocket serverSocket = new DatagramSocket(SERVER_PORT);
+            // Replace "your_ipv4_address" with your actual IPv4 address
+            DatagramSocket serverSocket = new DatagramSocket(SERVER_PORT, InetAddress.getByName("192.168.1.9"));
             System.out.println("Server is ready to listen...");
 
             while (true) {

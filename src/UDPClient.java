@@ -5,6 +5,7 @@ public class UDPClient {
     private static final int SERVER_PORT = 9876;
     private static final String SERVER_IP = "127.0.0.1";
 
+
     public static void main(String[] args) {
         try {
             DatagramSocket clientSocket = new DatagramSocket();

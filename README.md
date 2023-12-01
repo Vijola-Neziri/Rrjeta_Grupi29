@@ -7,7 +7,9 @@ Anetaret e grupit 29:
  Vijola Neziri,
  Visar Gjema.
 
+
 Kerkesat e projektit:
+
 
 Serveri
 1. Të vendosen variabla te cilat përmbajnë numrin e portit (numri i portit të jetë i

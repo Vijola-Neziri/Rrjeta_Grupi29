@@ -20,4 +20,10 @@ import java.util.Scanner;
                 String fileName = scanner.nextLine();
 
                 String message = requestType.toUpperCase() + " " + fileName.toUpperCase();
-}
+
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }

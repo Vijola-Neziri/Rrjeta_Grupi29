@@ -1,6 +1,7 @@
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.util.Scanner;
+import java.net.*;
 
 public class UDPClient2 {
     private static final int SERVER_PORT = 9876;
